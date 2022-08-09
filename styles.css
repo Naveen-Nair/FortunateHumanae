@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color:#2B4865;
+    color:#8FE3CF;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8FE3CF;
+    font-size: 2rem;
+    font-weight: bold;
+    color:black;
+}
+footer{
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    flex-direction: column;
+}
+
+.randomNumDisplay {
+    padding: 1rem;
+    margin:0 auto;
+}
+
+.container {
+  display:none;
+  margin:0 auto;
+  grid-template-columns: auto auto auto;
+  width:50%;
+  padding:10px;
+  background-color:#002B5B;
+  gap:10px;
+  color:white;
+
+}
+.player_name {
+  margin: 0 auto;
+  padding:10px;
+}
+.container > div {
+    background-color:  #256D85;
+    padding:10px;
+    border: 1px solid black;
+    text-align:center;
+}
+.hidden {
+  display:none;
+}
+
+svg {
+  width:100px;
+  visibility: hidden;
+}
+
+.turnButton {
+  background-color: #256D85;
+  padding:10px;
+  margin:10px;
+  margin-left:30px;
+  color:black;
+  border-radius: 20%;
+  border:black solid 1px;
+
+}
+.turnButton:hover{
+  background-color:#8FE3CF;
+}
+.main_elements {
+  display:flex;
+  padding:10px;
+
+
+}
+
+.points {
+  text-align: center;
+  display:none;
+}
+
+.leaderboard {
+  width:70%;
+  display:grid;
+  gird-column-template:auto;
+  padding:10px;
+  background-color: #002B5B;
+
+}
+.leaderboard>div {
+  background-color: #256D85;
+  padding:10px;
+  border: 1px solid black;
+  text-align:center;
+  color:white;
+
+}
